@@ -1,0 +1,22 @@
+version: '3.9'
+services:
+  cache:
+    image: redis:latest
+    container_name: redis
+    restart: always
+    ports:
+      - 6379 :6379
+    networks:
+      - default
+    volumes:
+      - /root/redis/data:/data
+    command:
+      - --requirepass 7b80ba2cca2d34313d17e11ccabd19e2
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
