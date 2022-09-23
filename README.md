@@ -14,8 +14,6 @@ Redis is an in-memory database that persists on disk. The data model is key-valu
 
 ### 🥈 Run
 
-- [http://localhost:8080/](http://localhost:8080/) username : `admin` password : `admin`
-
 ```shell
 docker-compose up -d
 ```
