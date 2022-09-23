@@ -11,7 +11,7 @@ services:
     volumes:
       - /root/redis/data:/data
     command:
-      - --requirepass 7b80ba2cca2d34313d17e11ccabd19e2
+      - --requirepass password
 
 networks:
   default:
