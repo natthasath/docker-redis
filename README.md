@@ -1,6 +1,6 @@
 # 🎉 Docker Redis
 
-Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.
+Redis is an open-source, in-memory data structure store, used as a database, cache, and message broker. It supports various data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps, hyperloglogs, and geospatial indexes with radius queries.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
