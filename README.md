@@ -6,7 +6,7 @@ Redis is an open-source, in-memory data structure store, used as a database, cac
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🔑 Config
+### 🔑 Configuration
 
 - Host : localhost
 - Port : 6379
