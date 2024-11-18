@@ -15,8 +15,10 @@ services:
 
 networks:
   default:
+    name: docker_redis_network
     driver: bridge
 
 volumes:
   data:
+    name: docker_redis_data
     driver: local
